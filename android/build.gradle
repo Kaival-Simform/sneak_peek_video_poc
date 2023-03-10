@@ -1,0 +1,41 @@
+buildscript {
+    ext.kotlin_version = '1.6.10'
+    ext.vesdk_version = '10.4.0'
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://artifactory.img.ly/artifactory/imgly" }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.1.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "ly.img.android.pesdk:plugin:$vesdk_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url 'https://artifactory.img.ly/artifactory/imgly'
+
+        }
+        maven {
+            url 'https://jitpack.io'
+        }
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

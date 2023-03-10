@@ -1,0 +1,133 @@
+PODS:
+  - audio_session (0.0.1):
+    - Flutter
+  - camera_avfoundation (0.0.1):
+    - Flutter
+  - ffmpeg-kit-ios-min-gpl (5.1.LTS)
+  - ffmpeg_kit_flutter_min_gpl (5.1.0.LTS):
+    - ffmpeg_kit_flutter_min_gpl/min-gpl-lts (= 5.1.0.LTS)
+    - Flutter
+  - ffmpeg_kit_flutter_min_gpl/min-gpl-lts (5.1.0.LTS):
+    - ffmpeg-kit-ios-min-gpl (= 5.1.LTS)
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_sound_core (8.5.0)
+  - flutter_sound_lite (8.5.0):
+    - Flutter
+    - flutter_sound_core (= 8.5.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - imgly_sdk (2.7.1):
+    - Flutter
+    - imglyKit (~> 11.3)
+  - imglyKit (11.5.0)
+  - just_audio (0.0.1):
+    - Flutter
+  - libwebp (1.2.4):
+    - libwebp/demux (= 1.2.4)
+    - libwebp/mux (= 1.2.4)
+    - libwebp/webp (= 1.2.4)
+  - libwebp/demux (1.2.4):
+    - libwebp/webp
+  - libwebp/mux (1.2.4):
+    - libwebp/demux
+  - libwebp/webp (1.2.4)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - permission_handler_apple (9.0.4):
+    - Flutter
+  - photo_manager (2.0.0):
+    - Flutter
+    - FlutterMacOS
+  - sqflite (0.0.2):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - video_editor_sdk (2.7.1):
+    - Flutter
+    - imgly_sdk (= 2.7.1)
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+  - video_thumbnail (0.0.1):
+    - Flutter
+    - libwebp
+
+DEPENDENCIES:
+  - audio_session (from `.symlinks/plugins/audio_session/ios`)
+  - camera_avfoundation (from `.symlinks/plugins/camera_avfoundation/ios`)
+  - ffmpeg_kit_flutter_min_gpl (from `.symlinks/plugins/ffmpeg_kit_flutter_min_gpl/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_sound_lite (from `.symlinks/plugins/flutter_sound_lite/ios`)
+  - imgly_sdk (from `.symlinks/plugins/imgly_sdk/ios`)
+  - just_audio (from `.symlinks/plugins/just_audio/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/ios`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - photo_manager (from `.symlinks/plugins/photo_manager/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - video_editor_sdk (from `.symlinks/plugins/video_editor_sdk/ios`)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/ios`)
+  - video_thumbnail (from `.symlinks/plugins/video_thumbnail/ios`)
+
+SPEC REPOS:
+  trunk:
+    - ffmpeg-kit-ios-min-gpl
+    - flutter_sound_core
+    - FMDB
+    - imglyKit
+    - libwebp
+
+EXTERNAL SOURCES:
+  audio_session:
+    :path: ".symlinks/plugins/audio_session/ios"
+  camera_avfoundation:
+    :path: ".symlinks/plugins/camera_avfoundation/ios"
+  ffmpeg_kit_flutter_min_gpl:
+    :path: ".symlinks/plugins/ffmpeg_kit_flutter_min_gpl/ios"
+  Flutter:
+    :path: Flutter
+  flutter_sound_lite:
+    :path: ".symlinks/plugins/flutter_sound_lite/ios"
+  imgly_sdk:
+    :path: ".symlinks/plugins/imgly_sdk/ios"
+  just_audio:
+    :path: ".symlinks/plugins/just_audio/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/ios"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  photo_manager:
+    :path: ".symlinks/plugins/photo_manager/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  video_editor_sdk:
+    :path: ".symlinks/plugins/video_editor_sdk/ios"
+  video_player_avfoundation:
+    :path: ".symlinks/plugins/video_player_avfoundation/ios"
+  video_thumbnail:
+    :path: ".symlinks/plugins/video_thumbnail/ios"
+
+SPEC CHECKSUMS:
+  audio_session: 4f3e461722055d21515cf3261b64c973c062f345
+  camera_avfoundation: 07c77549ea54ad95d8581be86617c094a46280d9
+  ffmpeg-kit-ios-min-gpl: a5cd8da6e4a695e5d4fbdb4433ac3f015fe79b33
+  ffmpeg_kit_flutter_min_gpl: 556fa79bd3ae0bea12d431dc1914b4dcb78bc9c0
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_sound_core: d9396f10752a0df9aa3197f4c431d62d934918cc
+  flutter_sound_lite: 175808b357d0b3eeee1345843545bb2fbde06e6c
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  imgly_sdk: e80792e7f6cc62a47d621e11c49f35182f8c2354
+  imglyKit: d2b7e1c21830e1c7cf229f140af03836260b50d3
+  just_audio: baa7252489dbcf47a4c7cc9ca663e9661c99aafa
+  libwebp: f62cb61d0a484ba548448a4bd52aabf150ff6eef
+  path_provider_foundation: 37748e03f12783f9de2cb2c4eadfaa25fe6d4852
+  permission_handler_apple: 44366e37eaf29454a1e7b1b7d736c2cceaeb17ce
+  photo_manager: 4f6810b7dfc4feb03b461ac1a70dacf91fba7604
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
+  video_editor_sdk: 4988b0a0512e19d6f520971be79c0f833ea9b240
+  video_player_avfoundation: e489aac24ef5cf7af82702979ed16f2a5ef84cff
+  video_thumbnail: c4e2a3c539e247d4de13cd545344fd2d26ffafd1
+
+PODFILE CHECKSUM: cc1f88378b4bfcf93a6ce00d2c587857c6008d3b
+
+COCOAPODS: 1.11.3
